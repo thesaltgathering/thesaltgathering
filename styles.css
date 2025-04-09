@@ -7,9 +7,13 @@ body {
   h1 {
     color: #333;
     font-family: "Courier New", Courier, monospace;
-}
+  }
   h2 {
     font-size: x-large;
+  }
+  p a {
+    color: black;
+    font-weight: bold;
   }
   #navbar {
     display: flex; 
