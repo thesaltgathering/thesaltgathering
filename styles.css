@@ -79,4 +79,13 @@ body {
     padding: 0;
     padding-top: 15px;
   }
+  #email-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--primary);
+    color: var(--alttxtbackgrd);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
   
