@@ -1,22 +1,28 @@
+:root {
+  --primary: black;
+  --alttxtbackgrd: silver;
+}
+
 body {
     font-family: "Courier New", Arial, sans-serif;
-    background-color: silver;
+    background-color: var(--alttxtbackgrd);
     margin: 0;
     padding: 20px;
   }
   h1 {
-    color: #333;
+    color: var(--primary);
     font-family: "Courier New", Courier, monospace;
   }
   h2 {
     font-size: x-large;
+    color: var(--primary);
   }
   p a {
-    color: black;
+    color: var(--primary);
     font-weight: bold;
   }
   .event {
-    border: 1px solid black;
+    border: 1px solid var(--primary);
     margin-bottom: 10px;
     padding-left: 10px;
   }
@@ -30,8 +36,8 @@ body {
     font-size: 20px;
   }
   .site-footer {
-    background-color: black;
-    color: silver;
+    background-color: var(--primary);
+    color: var(--alttxtbackgrd);
     text-align: center;
     padding: 15px;
     margin-left: -20px;
@@ -50,14 +56,14 @@ body {
     margin: 0;
   }
   #navbar li {
-    background-color: black;
-    color: white;
+    background-color: var(--primary);
     padding: 5px;
     border-radius: 3px;
   }
   #navbar li a {
-    color: white;
+    color: var(--alttxtbackgrd);
     text-decoration: none;
+    font-weight: 500;
   }
   #title {
     margin-bottom: 0;
